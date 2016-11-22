@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+    android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="281.0dp"
+        android:id="@+id/image" />
+    <TextView
+        android:text="Wait"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="280.3dp"
+        android:id="@+id/textView"
+        style="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar"
+        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+        android:backgroundTint="#ffffffff"
+        android:background="@android:color/white" />
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emoButton" />
+</LinearLayout>
